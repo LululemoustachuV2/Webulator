@@ -1,0 +1,30 @@
+# Dépendances Node
+node_modules/
+
+# Fichier de lock npm (généré automatiquement)
+package-lock.json
+package.json
+
+# Logs npm / yarn
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Rapports de tests et couverture Jest
+coverage/
+*.lcov
+.jest-cache/
+
+# Variables d'environnement
+.env
+.env.local
+.env.*.local
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Dossiers d'IDE
+.vscode/
+.idea/
+*.swp

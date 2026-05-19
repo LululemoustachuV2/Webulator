@@ -112,6 +112,21 @@ body {
     background: #f7ab63;
 }
 
+.btn-operator-disabled,
+.btn-operator:disabled {
+    background: #2d2d3f;
+    color: #4a4a5c;
+    cursor: not-allowed;
+    opacity: 0.55;
+    pointer-events: none;
+}
+
+.btn-operator-disabled:hover,
+.btn-operator:disabled:hover {
+    transform: none;
+    background: #2d2d3f;
+}
+
 .btn-equal {
     background: #4a8df3;
     color: #ffffff;
